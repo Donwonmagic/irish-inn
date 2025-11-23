@@ -1,258 +1,240 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>The Irish Inn at Glen Echo | Traditional Irish & American Cuisine</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description"
-        content="The Irish Inn at Glen Echo offers traditional Irish and contemporary American cuisine, live music, and a warm pub atmosphere just outside Washington, DC." />
+<main id="main-content">
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="hero-media">
+      <picture>
+        <source srcset="assets/images/hero.webp" type="image/webp" />
+        <img src="assets/images/hero.jpg"
+             alt="Cozy dining room at The Irish Inn with candlelit tables and warm lighting" loading="eager" />
+      </picture>
+    </div>
 
-  <!-- Example: swap with your preferred fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <div class="hero-overlay">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Glen Echo, Maryland</p>
+          <h1 id="hero-heading">Traditional Irish &amp; Contemporary American Cuisine</h1>
+          <p class="hero-subtitle">
+            A living tradition of fine cuisine, live music, and warm hospitality steps from Glen Echo Park.
+          </p>
+          <div class="hero-actions">
+            <a href="https://resy.com" class="btn btn--primary" target="_blank" rel="noopener">
+              Book a Table
+            </a>
+            <a href="menus.html" class="btn btn--ghost">
+              View Menus
+            </a>
+          </div>
+          <p class="hero-meta">
+            Named one of the Top 100 restaurants in the DC Metro area.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <link rel="stylesheet" href="assets/css/styles.css" />
-</head>
-<body>
-  <!-- Skip link for accessibility -->
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <!-- TONIGHT AT THE INN -->
+  <section class="tonight" aria-label="Tonight at The Irish Inn">
+    <div class="container tonight-inner">
+      <div class="tonight-main">
+        <span class="eyebrow eyebrow--accent">Tonight at the Inn</span>
+        <h2 id="tonight-title">Loading tonight’s lineup…</h2>
+        <p id="tonight-description"></p>
+      </div>
+      <div class="tonight-meta">
+        <p id="tonight-time"></p>
+        <p id="tonight-special"></p>
+        <div class="tonight-actions">
+          <a href="https://resy.com" class="btn btn--primary btn--small"
+             target="_blank" rel="noopener">
+            Reserve for Tonight
+          </a>
+          <a href="events.html" class="btn btn--ghost-light btn--small">
+            View This Week
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <!-- Site header / nav -->
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="index.html" class="logo">
-        <!-- Replace with your SVG/logo -->
-        <img src="assets/images/logo.svg" alt="The Irish Inn at Glen Echo" />
-      </a>
-
-      <nav class="main-nav" aria-label="Main navigation">
-        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="nav-toggle-bar"></span>
-          <span class="nav-toggle-bar"></span>
-        </button>
-        <ul class="nav-list">
-          <li><a href="index.html" class="nav-link nav-link--active">Home</a></li>
-          <li><a href="about.html" class="nav-link">About</a></li>
-          <li><a href="menus.html" class="nav-link">Menus</a></li>
-          <li><a href="events.html" class="nav-link">Events</a></li>
-          <li><a href="private-events.html" class="nav-link">Private Events</a></li>
-          <li><a href="contact.html" class="nav-link">Contact</a></li>
-        </ul>
-      </nav>
-
-      <div class="header-cta">
-        <a href="https://resy.com" class="btn btn--primary" target="_blank" rel="noopener">
-          Reserve on Resy
+  <!-- INFO STRIP -->
+  <section class="info-strip" aria-label="Key restaurant information">
+    <div class="container info-strip-inner">
+      <div class="info-strip-item">
+        <span class="info-label">Location</span>
+        <p>6119 Tulane Avenue<br>Glen Echo, MD 20812</p>
+        <a href="https://maps.google.com/?q=The+Irish+Inn+at+Glen+Echo"
+           class="info-link" target="_blank" rel="noopener">
+          Get Directions →
+        </a>
+      </div>
+      <div class="info-strip-item">
+        <span class="info-label">Today’s Hours</span>
+        <p>11:00 AM – 10:00 PM</p>
+        <p class="info-note">Check events for special holiday hours.</p>
+      </div>
+      <div class="info-strip-item">
+        <span class="info-label">Contact</span>
+        <p><a href="tel:+13019837663">(301) 983-7663</a></p>
+        <a href="mailto:info@irishinnglenecho.com" class="info-link">
+          Email Us →
         </a>
       </div>
     </div>
-  </header>
+  </section>
 
-  <main id="main-content">
-    <!-- Seasonal banner (easy to change or hide) -->
-    <section class="seasonal-banner" aria-label="Current seasonal promotion">
-      <div class="container seasonal-banner-inner">
-        <p class="seasonal-tagline">Seasonal Highlight</p>
-        <div class="seasonal-content">
-          <h2>Book Your Holiday Party at the Inn</h2>
-          <p>Six private rooms, custom menus, and warm Irish hospitality just minutes from DC.</p>
-        </div>
-        <a href="private-events.html" class="btn btn--outline">Plan Your Event</a>
+  <!-- ABOUT TEASER -->
+  <section class="section section--light reveal" id="about-teaser">
+    <div class="container grid grid--2col">
+      <div class="section-media">
+        <img src="assets/images/dining-room.jpg"
+             alt="Guests dining in the main dining room at The Irish Inn" />
       </div>
-    </section>
+      <div class="section-content">
+        <p class="eyebrow">About the Inn</p>
+        <h2>A Historic Gathering Place in Glen Echo</h2>
+        <p>
+          From its early days as a family home and roadside inn to its rebirth as The Irish Inn in 2003,
+          our building has welcomed travelers, neighbors, and artists for generations.
+        </p>
+        <p>
+          Today, we continue that tradition with thoughtful food, carefully curated drinks, and
+          a welcoming atmosphere inspired by classic Irish pubs.
+        </p>
+        <a href="about.html" class="link-arrow">Read Our Story</a>
+      </div>
+    </div>
+  </section>
 
-    <!-- Hero -->
-    <section class="hero" aria-labelledby="hero-heading">
-      <div class="hero-media" role="img"
-           aria-label="Cozy dining room at The Irish Inn with candlelit tables and warm lighting"></div>
+  <!-- EVENTS TEASER -->
+  <section class="section section--dark reveal" id="events-teaser">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow eyebrow--accent">Events &amp; Entertainment</p>
+        <h2>Live Music, Trivia &amp; More, All Week Long</h2>
+        <p class="section-intro">
+          Join us Sunday through Thursday for live jazz, traditional Irish sessions, and our famously challenging trivia night.
+        </p>
+      </div>
 
-      <div class="hero-overlay">
-        <div class="container hero-inner">
-          <div class="hero-text">
-            <p class="eyebrow">Glen Echo, Maryland</p>
-            <h1 id="hero-heading">Traditional Irish &amp; Contemporary American Cuisine</h1>
-            <p class="hero-subtitle">
-              A living tradition of fine cuisine, live music, and warm hospitality steps from Glen Echo Park.
-            </p>
-            <div class="hero-actions">
-              <a href="https://resy.com" class="btn btn--primary" target="_blank" rel="noopener">
-                Book a Table
-              </a>
-              <a href="menus.html" class="btn btn--ghost">
-                View Menus
-              </a>
-            </div>
-            <p class="hero-meta">
-              Named one of the Top 100 restaurants in the DC Metro area.
-            </p>
+      <div class="grid grid--3col cards">
+        <article class="card">
+          <h3>Sunday Jazz</h3>
+          <p class="card-time">Sundays · 4:30–7:30 PM</p>
+          <p class="card-text">
+            Unwind with live jazz in the dining room, a perfect pairing with our Sunday roast specials.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Irish Inn Mates</h3>
+          <p class="card-time">Mondays · 7–10 PM</p>
+          <p class="card-text">
+            A spirited traditional Irish session led by accomplished local musicians and visiting artists.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Trivia Night</h3>
+          <p class="card-time">Tuesdays · 7:30–9:00 PM</p>
+          <p class="card-text">
+            Bring a team, enjoy a pint, and test your knowledge with our weekly trivia host.
+          </p>
+        </article>
+      </div>
+
+      <div class="section-cta">
+        <a href="events.html" class="btn btn--outline-light">View Weekly Lineup</a>
+        <a href="https://resy.com" target="_blank" rel="noopener" class="btn btn--ghost-light">
+          Reserve for an Event Night
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUISINE -->
+  <section class="section section--light reveal" id="cuisine">
+    <div class="container grid grid--2col">
+      <div class="section-content">
+        <p class="eyebrow">Our Cuisine</p>
+        <h2>From Sunday Brunch to Late-Night Pints</h2>
+        <p>
+          Our culinary team blends Irish classics—like shepherd’s pie and fish &amp; chips—with seasonal,
+          contemporary dishes crafted from local ingredients.
+        </p>
+        <ul class="feature-list">
+          <li>Sunday brunch with Irish-inspired favorites</li>
+          <li>All-day menu featuring pub classics and seasonal specials</li>
+          <li>Thoughtful wine list, local beers, and classic cocktails</li>
+        </ul>
+        <a href="menus.html" class="btn btn--primary">Explore Menus</a>
+      </div>
+      <div class="section-media">
+        <img src="assets/images/cuisine.jpg"
+             alt="An assortment of dishes and drinks served at The Irish Inn" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SOCIAL PROOF -->
+  <section class="section section--dark reveal" id="social-proof">
+    <div class="container social-proof-inner">
+      <div class="social-proof-copy">
+        <p class="eyebrow eyebrow--accent">Reviews &amp; Press</p>
+        <h2>Loved by Neighbors &amp; Critics Alike</h2>
+        <p>
+          “A cozy Glen Echo gem with hearty Irish fare, thoughtful wines, and live music
+          that keeps locals coming back week after week.”
+        </p>
+        <div class="badge-row">
+          <div class="rating-badge">
+            ★★★★★ <span>4.7 on Google</span>
+          </div>
+          <div class="rating-badge">
+            Top 100 DC Metro Restaurants
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- About teaser -->
-    <section class="section section--light" id="about-teaser">
-      <div class="container grid grid--2col">
-        <div class="section-media">
-          <img src="assets/images/dining-room.jpg"
-               alt="Guests dining in the main dining room at The Irish Inn" />
-        </div>
-        <div class="section-content">
-          <p class="eyebrow">About the Inn</p>
-          <h2>A Historic Gathering Place in Glen Echo</h2>
-          <p>
-            From its early days as a family home and roadside inn to its rebirth as The Irish Inn in 2003,
-            our building has welcomed travelers, neighbors, and artists for generations.
+      <div class="social-proof-list">
+        <article class="review-card">
+          <p class="review-text">
+            “The Irish Inn feels like a trip to Ireland without leaving Maryland. The Sunday jazz is a must.”
           </p>
-          <p>
-            Today, we continue that tradition with thoughtful food, carefully curated drinks, and
-            a welcoming atmosphere inspired by classic Irish pubs.
+          <p class="review-meta">— Guest review</p>
+        </article>
+        <article class="review-card">
+          <p class="review-text">
+            “Perfect mix of classic pub dishes and refined plates, all in a historic, welcoming space.”
           </p>
-          <a href="about.html" class="link-arrow">Read Our Story</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Events teaser -->
-    <section class="section section--dark" id="events-teaser">
-      <div class="container">
-        <div class="section-header">
-          <p class="eyebrow eyebrow--accent">Events &amp; Entertainment</p>
-          <h2>Live Music, Trivia &amp; More, All Week Long</h2>
-          <p class="section-intro">
-            Join us Sunday through Thursday for live jazz, traditional Irish sessions, and our famously challenging trivia night.
-          </p>
-        </div>
-
-        <div class="grid grid--3col cards">
-          <article class="card">
-            <h3>Sunday Jazz</h3>
-            <p class="card-time">Sundays · 4:30–7:30 PM</p>
-            <p class="card-text">
-              Unwind with live jazz in the dining room, a perfect pairing with our Sunday roast specials.
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>Irish Inn Mates</h3>
-            <p class="card-time">Mondays · 7–10 PM</p>
-            <p class="card-text">
-              A spirited traditional Irish session led by accomplished local musicians and visiting artists.
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>Trivia Night</h3>
-            <p class="card-time">Tuesdays · 7:30–9:00 PM</p>
-            <p class="card-text">
-              Bring a team, enjoy a pint, and test your knowledge with our weekly trivia host.
-            </p>
-          </article>
-        </div>
-
-        <div class="section-cta">
-          <a href="events.html" class="btn btn--outline-light">View Weekly Lineup</a>
-          <a href="https://resy.com" target="_blank" rel="noopener" class="btn btn--ghost-light">
-            Reserve for an Event Night
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Cuisine -->
-    <section class="section section--light" id="cuisine">
-      <div class="container grid grid--2col">
-        <div class="section-content">
-          <p class="eyebrow">Our Cuisine</p>
-          <h2>From Sunday Brunch to Late-Night Pints</h2>
-          <p>
-            Our culinary team blends Irish classics—like shepherd’s pie and fish &amp; chips—with seasonal,
-            contemporary dishes crafted from local ingredients.
-          </p>
-          <ul class="feature-list">
-            <li>Sunday brunch with Irish-inspired favorites</li>
-            <li>All-day menu featuring pub classics and seasonal specials</li>
-            <li>Thoughtful wine list, local beers, and classic cocktails</li>
-          </ul>
-          <a href="menus.html" class="btn btn--primary">Explore Menus</a>
-        </div>
-        <div class="section-media">
-          <img src="assets/images/cuisine.jpg"
-               alt="An assortment of dishes and drinks served at The Irish Inn" />
-        </div>
-      </div>
-    </section>
-
-    <!-- Private Events teaser -->
-    <section class="section section--accent" id="private-events-teaser">
-      <div class="container grid grid--2col">
-        <div class="section-content">
-          <p class="eyebrow eyebrow--dark">Private Events</p>
-          <h2>Six Unique Rooms for Every Occasion</h2>
-          <p>
-            Host your next celebration, corporate gathering, or rehearsal dinner in one of our
-            private spaces, each with its own character and charm.
-          </p>
-          <ul class="feature-list">
-            <li>Rooms for small gatherings or larger celebrations</li>
-            <li>Customizable menus and beverage packages</li>
-            <li>Dedicated team to help plan every detail</li>
-          </ul>
-          <a href="private-events.html" class="btn btn--ghost-dark">Plan Your Event</a>
-        </div>
-        <div class="section-media">
-          <img src="assets/images/music-night.jpg"
-               alt="A private dining room prepared for an event" />
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Site footer -->
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-column">
-        <h3 class="footer-heading">The Irish Inn at Glen Echo</h3>
-        <p>
-          6119 Tulane Avenue<br />
-          Glen Echo, MD 20812<br />
-          <a href="tel:+13019837663">(301) 983-7663</a>
-        </p>
-        <p><a href="mailto:info@irishinnglenecho.com">info@irishinnglenecho.com</a></p>
-      </div>
-
-      <div class="footer-column">
-        <h4 class="footer-subheading">Hours</h4>
-        <p>
-          Mon–Thu: 4:00 PM – 10:00 PM<br />
-          Fri: 4:00 PM – 11:00 PM<br />
-          Sat: 11:00 AM – 11:00 PM<br />
-          Sun: 11:00 AM – 9:00 PM
-        </p>
-      </div>
-
-      <div class="footer-column">
-        <h4 class="footer-subheading">Visit</h4>
-        <p>
-          Located beside Glen Echo Park with convenient nearby parking.<br />
-          <a href="contact.html#directions" class="link-arrow">Directions &amp; Parking</a>
-        </p>
-        <div class="footer-actions">
-          <a href="https://resy.com" class="btn btn--primary btn--small" target="_blank" rel="noopener">
-            Reserve on Resy
-          </a>
-        </div>
+          <p class="review-meta">— Local dining guide</p>
+        </article>
       </div>
     </div>
+  </section>
 
-    <div class="footer-bottom">
-      <div class="container footer-bottom-inner">
-        <p>© <span id="year"></span> The Irish Inn at Glen Echo. All rights reserved.</p>
-        <p class="footer-meta">Website design inspired by classic Irish pubs &amp; modern hospitality.</p>
+  <!-- NEWSLETTER -->
+  <section class="section section--light reveal" id="newsletter">
+    <div class="container newsletter-inner">
+      <div>
+        <p class="eyebrow">Stay in the Loop</p>
+        <h2>Get Event Updates &amp; Seasonal Menus</h2>
+        <p>
+          Join our mailing list for occasional updates about live music,
+          holiday menus, and specials. No spam, just good news.
+        </p>
       </div>
+      <form class="newsletter-form" action="#" method="post">
+        <label class="sr-only" for="newsletter-email">Email address</label>
+        <input id="newsletter-email" name="email" type="email"
+               placeholder="you@example.com" required />
+        <button type="submit" class="btn btn--primary btn--small">
+          Join the List
+        </button>
+      </form>
     </div>
-  </footer>
+  </section>
+</main>
+
 
   <script src="assets/js/main.js"></script>
 </body>
