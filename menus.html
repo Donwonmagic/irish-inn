@@ -1,1 +1,219 @@
+<main id="main-content">
+  <section class="page-hero page-hero--simple">
+    <div class="container">
+      <p class="eyebrow">Menus</p>
+      <h1>Brunch, Dinner &amp; Drinks</h1>
+      <p>
+        Menus change with the season. The selections below are representative of what we’re serving now.
+      </p>
+    </div>
+  </section>
+
+  <section class="section section--light">
+    <div class="container menu-layout">
+      <!-- Tabs on the left -->
+      <nav class="menu-tabs" aria-label="Menu categories">
+        <button class="menu-tab menu-tab--active" data-menu-target="brunch">
+          Brunch
+        </button>
+        <button class="menu-tab" data-menu-target="all-day">
+          All Day
+        </button>
+        <button class="menu-tab" data-menu-target="drinks">
+          Drinks
+        </button>
+      </nav>
+
+      <!-- Menu content on the right -->
+      <div class="menu-sections">
+        <!-- SHARED FILTERS -->
+        <div class="menu-filters" aria-label="Filter menu items">
+          <button class="menu-filter menu-filter--active" data-filter="all">
+            All
+          </button>
+          <button class="menu-filter" data-filter="vegetarian">
+            Vegetarian
+          </button>
+          <button class="menu-filter" data-filter="gluten-free">
+            Gluten-free
+          </button>
+          <button class="menu-filter" data-filter="classic">
+            Pub Classics
+          </button>
+        </div>
+
+        <!-- BRUNCH PANEL -->
+        <section class="menu-panel menu-panel--active" id="menu-brunch">
+          <article class="menu-section">
+            <h2>Brunch Starters</h2>
+            <ul class="menu-list">
+              <li class="menu-item-row" data-tags="vegetarian brunch">
+                <div class="menu-item">
+                  <span class="menu-item-name">Smoked Salmon Toast</span>
+                  <span class="menu-item-price">$14</span>
+                </div>
+                <p class="menu-item-desc">
+                  House-cured salmon, whipped cream cheese, pickled onion, capers, grilled sourdough.
+                </p>
+              </li>
+              <li class="menu-item-row" data-tags="vegetarian brunch">
+                <div class="menu-item">
+                  <span class="menu-item-name">Irish Brown Bread &amp; Butter</span>
+                  <span class="menu-item-price">$8</span>
+                </div>
+                <p class="menu-item-desc">
+                  Warm house-baked brown bread with salted Irish butter and sea salt.
+                </p>
+              </li>
+            </ul>
+          </article>
+
+          <article class="menu-section">
+            <h2>Brunch Mains</h2>
+            <ul class="menu-list">
+              <li class="menu-item-row" data-tags="classic brunch">
+                <div class="menu-item">
+                  <span class="menu-item-name">Full Irish Breakfast</span>
+                  <span class="menu-item-price">$21</span>
+                </div>
+                <p class="menu-item-desc">
+                  Eggs, bangers, rashers, black &amp; white pudding, roasted tomato, mushrooms, toast.
+                </p>
+              </li>
+              <li class="menu-item-row" data-tags="vegetarian brunch">
+                <div class="menu-item">
+                  <span class="menu-item-name">Shakshuka</span>
+                  <span class="menu-item-price">$16</span>
+                </div>
+                <p class="menu-item-desc">
+                  Baked eggs in spiced tomato sauce with feta, herbs, and grilled bread.
+                </p>
+              </li>
+              <li class="menu-item-row" data-tags="gluten-free brunch classic">
+                <div class="menu-item">
+                  <span class="menu-item-name">Steak &amp; Eggs</span>
+                  <span class="menu-item-price">$24</span>
+                </div>
+                <p class="menu-item-desc">
+                  Grilled steak, two eggs any style, roasted potatoes, Guinness jus.
+                </p>
+              </li>
+            </ul>
+          </article>
+        </section>
+
+        <!-- ALL DAY PANEL -->
+        <section class="menu-panel" id="menu-all-day">
+          <article class="menu-section">
+            <h2>Starters</h2>
+            <ul class="menu-list">
+              <li class="menu-item-row" data-tags="classic">
+                <div class="menu-item">
+                  <span class="menu-item-name">Fish &amp; Chips Bites</span>
+                  <span class="menu-item-price">$14</span>
+                </div>
+                <p class="menu-item-desc">
+                  Crispy beer-battered cod bites with tartar sauce and lemon.
+                </p>
+              </li>
+              <li class="menu-item-row" data-tags="vegetarian">
+                <div class="menu-item">
+                  <span class="menu-item-name">Roasted Beet Salad</span>
+                  <span class="menu-item-price">$13</span>
+                </div>
+                <p class="menu-item-desc">
+                  Roasted beets, goat cheese, candied walnuts, greens, sherry vinaigrette.
+                </p>
+              </li>
+            </ul>
+          </article>
+
+          <article class="menu-section">
+            <h2>Classics</h2>
+            <ul class="menu-list">
+              <li class="menu-item-row" data-tags="classic">
+                <div class="menu-item">
+                  <span class="menu-item-name">Shepherd’s Pie</span>
+                  <span class="menu-item-price">$23</span>
+                </div>
+                <p class="menu-item-desc">
+                  Slow-cooked lamb and vegetables topped with mashed potatoes, baked until golden.
+                </p>
+              </li>
+              <li class="menu-item-row" data-tags="classic gluten-free">
+                <div class="menu-item">
+                  <span class="menu-item-name">Guinness Beef Stew</span>
+                  <span class="menu-item-price">$24</span>
+                </div>
+                <p class="menu-item-desc">
+                  Rich Guinness-braised beef with root vegetables and herbs.
+                </p>
+              </li>
+              <li class="menu-item-row" data-tags="gluten-free">
+                <div class="menu-item">
+                  <span class="menu-item-name">Pan-Seared Salmon</span>
+                  <span class="menu-item-price">$27</span>
+                </div>
+                <p class="menu-item-desc">
+                  Served with seasonal vegetables and lemon-herb beurre blanc.
+                </p>
+              </li>
+            </ul>
+          </article>
+        </section>
+
+        <!-- DRINKS PANEL -->
+        <section class="menu-panel" id="menu-drinks">
+          <article class="menu-section">
+            <h2>On Tap</h2>
+            <ul class="menu-list">
+              <li class="menu-item-row" data-tags="classic">
+                <div class="menu-item">
+                  <span class="menu-item-name">Guinness Draught</span>
+                  <span class="menu-item-price">$9</span>
+                </div>
+                <p class="menu-item-desc">
+                  Poured properly, with the perfect creamy head.
+                </p>
+              </li>
+              <li class="menu-item-row" data-tags="">
+                <div class="menu-item">
+                  <span class="menu-item-name">Local Seasonal Ale</span>
+                  <span class="menu-item-price">$8</span>
+                </div>
+                <p class="menu-item-desc">
+                  Rotating selection from nearby breweries.
+                </p>
+              </li>
+            </ul>
+          </article>
+
+          <article class="menu-section">
+            <h2>Cocktails</h2>
+            <ul class="menu-list">
+              <li class="menu-item-row" data-tags="classic">
+                <div class="menu-item">
+                  <span class="menu-item-name">Irish Old Fashioned</span>
+                  <span class="menu-item-price">$13</span>
+                </div>
+                <p class="menu-item-desc">
+                  Irish whiskey, demerara, bitters, orange peel.
+                </p>
+              </li>
+              <li class="menu-item-row" data-tags="">
+                <div class="menu-item">
+                  <span class="menu-item-name">Espresso Martini</span>
+                  <span class="menu-item-price">$14</span>
+                </div>
+                <p class="menu-item-desc">
+                  House espresso, vodka, coffee liqueur, vanilla.
+                </p>
+              </li>
+            </ul>
+          </article>
+        </section>
+      </div>
+    </div>
+  </section>
+</main>
 
